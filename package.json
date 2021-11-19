@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio for Kazuki Mineshima",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finne0528/portfolio.git"
+  },
+  "author": "Kazuki Mineshima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/finne0528/portfolio/issues"
+  },
+  "homepage": "https://github.com/finne0528/portfolio#readme"
+}
+
