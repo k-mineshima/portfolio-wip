@@ -1,9 +1,19 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+import { ProfilePage } from "./components/pages/profile";
+import {
+    BrowserRouter,
+    Routes,
+    Route
+} from 'react-router-dom';
 
 const App = () => {
     return (
-        <h1>App</h1>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/profile" element={<ProfilePage />} />
+            </Routes>
+        </BrowserRouter>
     )
 };
 
