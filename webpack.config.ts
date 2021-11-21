@@ -42,7 +42,8 @@ const devServer = {
         progress: true,
     },
     open: true,
-    port: 8080
+    port: 8080,
+    historyApiFallback: true
 };
 
 const config: Configuration = {
